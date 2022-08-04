@@ -28,7 +28,6 @@ const wordSearch = (letters, word) => {
   for (const l of reverseVertical) if (l.includes(word)) return true;
   // Checking for vertical word --^
   return false;
-
 };
 
 module.exports = wordSearch;
